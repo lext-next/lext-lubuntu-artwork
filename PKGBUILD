@@ -1,3 +1,4 @@
+pkgname=lext-lubuntu-artwork
 pkgver=25.10
 pkgrel=1
 orgpkgname=lubuntu-artwork
@@ -18,6 +19,6 @@ package() {
     trap 'set +x' RETURN   # automatically disable tracing on function exit
 
     install -d "$pkgdir/usr/share/lxqt/themes"
-    
+
     cp -rv "$srcdir"/artwork/src/usr "$pkgdir"
 }
