@@ -15,7 +15,7 @@ This implies that aforementioned AUR package must be updated regularily (at leas
 
 A long story, but it explains why the 'lubuntu-artwork' package no longer works. 
 
-This is where this repository ('lext-lubuntu-artwork') may help. It allows to load the lastest version of the Lubuntu-Arc theming onto your system, with AUR (at least as long as someone 'here' changes the release and version numbering according to the situation on the upstream archive. 
+This is where this repository ('lext-lubuntu-artwork') may help. It allows to load the lastest version of the Lubuntu-Arc theming onto your system, with AUR. At least as long as someone 'here' changes the release and version numbering according to the situation on the upstream archive. 
 
 For most use cases this will suffice. If you explictly need an earlier version (as available on te source URL), and want to use this you need to tweak the PKGBUILD file, as described on the original 'lubuntu-artwork' page on AUR. 
 
