@@ -7,8 +7,7 @@ This repository is intended for use with AUR (for Arch Linux and derived systems
 
 The upstream Lubuntu-Arc theme is available at: http://archive.ubuntu.com/ubuntu/pool/universe/l/lubuntu-artwork. This website contains many incarnations of the LXQt theme, each for a specific release of LXQt. 
 
-The various versions of the theme have a specific identifier (e.g. '24.04.3'). The first part obviously denotes for which release of LXQt it is intended ('24.04'). This is followed by a version number (in this case '3'). When a new version of LXQt is released (or in status nascendi) the LXQt project release a new tar file with version number 1 for that release number. When upstream upgrade a theme (for the same LXQt release) the version number is increased. The upstream archive keeps only the latest version, and unfortunately for LXQt 24.04 that is the third version, with identifier '24.04.3' in its filename. 
-latest version (for a release) on the source website.
+The various versions of the theme have a specific identifier (e.g. '24.04.3'). The first part obviously denotes for which release of LXQt it is intended ('24.04'). This is followed by a version number (in this case '3'). When a new version of LXQt is released (or in status nascendi) the LXQt project release a new tar file with version number 1 for that release number. When upstream upgrade a theme (for the same LXQt release) the version number is increased. The upstream archive keeps only the latest version, and unfortunately for LXQt 24.04 that is the third version, with identifier '24.04.3' in its tar filename. 
 
 Since the aforementioned 'lubuntu-artwork' package (on AUR) is no longer maintained, it expects to find a specific release and version identifier, which is '24.04'2', valid when the package was last updated to reflect the then actual situation. 
 
