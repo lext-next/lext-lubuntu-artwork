@@ -1,2 +1,18 @@
+WORK IN PROGRESS
+
 # lext-lubuntu-artwork
-AUR package for Lubuntu Artwork
+AUR package for the Lubuntu-Arc theme (intended for LXQt).
+
+This repository is intended for use with AUR (for Arch Linux and derived systems). There is already a package 'lubuntu-artwork' in AUR. That one is supposed to install the Lubuntu-Arc theme as well. Mentioned package has a problem (due to that it is not being maintained) and can't be used anymore to install the theme (witdout tweaking the PKGBUILD file).
+
+The upstream Lubuntu-Arc theme is available at: http://archive.ubuntu.com/ubuntu/pool/universe/l/lubuntu-artwork. This website contains many incarnations of the LXQt theme, each for a specific release of LXQt. 
+
+The various versions of the theme have a specific identifier (e.g. '24.04.3'). The first part obviously denotes for which release of LXQt it is intended ('24.04'). This is followed by a version number ('3') when upstream have upgraded a theme (for the same LXQt release). Since the aforementioned 'lubuntu-artwork' package (on AUR) is no longer maintained, it expects to find a specific release and version identifier, which is still '24.04'2'. The upstream archive keeps only the latest version, and unfortunately for LXQt 24.04 that is the third version, with identifier '24.04.3' in its filename. 
+
+This implies that aforementioned AUR package should be updated regularily (at least for the semiannual releases, and in practice even more than twice a year due minor updates by upstream).
+
+A long story, but it explains why the 'lubuntu-artwork' package no longer works. 
+
+This is where this repository 'lext-lubuntu-artwork' may help. It allows to load the lastest version of the Lubuntu-Arc theming onto your system, with AUR (at least as long as someone 'here' changes the release and version numbering according to the situation on the upstream archive. 
+
+For most use cases this will suffice. If you explictly need an earlier version (as available on te source URL), and want to use this you need to tweak the PKGBUILD file, as described on the 'lubuntu-artwork' page on AUR. Or ask for a specific version of the AUR package related to this repository. 
