@@ -1,0 +1,12 @@
+pkgbase = lext-lubuntu-artwork
+        pkgdesc = LXQt theme: Lubuntu Arc 25.10.2
+        pkgver = 25.10
+        pkgrel = 2
+        url = https://github.com/frtzqe/lext-lubuntu-artwork
+        arch = any
+        license = GPL
+        depends = lxqt-session
+        source = http://archive.ubuntu.com/ubuntu/pool/universe/l/lubuntu-artwork/lubuntu-artwork_25.10.2.tar.xz
+        sha256sums = SKIP
+
+pkgname = lext-lubuntu-artwork
