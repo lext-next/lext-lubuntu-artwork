@@ -1,5 +1,5 @@
 pkgname=lext-artwork-lubuntu
-pkgdesc="LXQt theme: Lubuntu Arc $upstreampkgver"           
+pkgdesc="LXQt theme: Lubuntu-Arc (for Lubuntu $upstreampkgver)"           
 
 pkgver=1
 pkgrel=1
@@ -25,4 +25,6 @@ package() {
 
 #   cp -rv "$srcdir"/artwork/src/usr "$pkgdir"
     cp -r "$srcdir"/artwork/src/usr "$pkgdir"
+
+    msg "*** READY ***"
 }
