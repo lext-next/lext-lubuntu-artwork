@@ -13,7 +13,8 @@ url="https://github.com/lext-next/lext-artwork-lubuntu"
 license=('GPL')                                                          
 depends=('lxqt-session')
 conflicts=('lubuntu-artwork', 'lubuntu-artwork-18-04')
-source=("http://archive.ubuntu.com/ubuntu/pool/universe/l/${orgpkgname}/${orgpkgname}_${upstreampkgver}.tar.xz")                                                            
+#source=("http://archive.ubuntu.com/ubuntu/pool/universe/l/${orgpkgname}/${orgpkgname}_${upstreampkgver}.tar.xz")
+source=("https://github.com/lext-next/lext-artwork-lubuntu/blob/main/lubuntu-artwork_25.10.2.tar.xz")
                                                                                    
 sha256sums=('SKIP')  # for testing; replace with real checksum later                 
                                                                                        
