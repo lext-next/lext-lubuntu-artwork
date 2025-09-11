@@ -1,9 +1,7 @@
-WORK IN PROGRESS. As soon as I finished with learning the internals of PKGBUILD and friends, I will put this on AUR, and AUR users can just execute: 
+WORK IN PROGRESS. 
 
+Since I am on Arch Linux, this software **will eventually be made** available on AUR: 
 > $ yay -S lext-artwork-lubuntu 
-
-to install the Lubuntu-Arc theme on their Arch based LXQt desktop.
-
 
 # lext-artwork-lubuntu
 AUR package for the Lubuntu-Arc theme (for LXQt).
