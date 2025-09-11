@@ -1,11 +1,12 @@
 pkgname=lext-artwork-lubuntu
+pkgdesc="LXQt theme: Lubuntu Arc $upstreampkgver"           
 
 pkgver=1
 pkgrel=1
 
 orgpkgname=lubuntu-artwork
 upstreampkgver=25.10.2
-pkgdesc="LXQt theme: Lubuntu Arc $upstreampkgver"           
+
 arch=('any')                                                      
 url="https://github.com/lext-next/lext-lubuntu-artwork"                 
 license=('GPL')                                                          
