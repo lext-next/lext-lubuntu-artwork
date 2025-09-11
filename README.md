@@ -9,7 +9,7 @@ Until then, for Arch Linux, just clone this repository, and then do:
 $ cd lext-artwork-lubuntu
 $ makepkg -si
 ```
-Optional followed by
+Optionally followed by
 ```bash
 $ cd ..
 $ rm -Rf lext-artwork-lubuntu 
