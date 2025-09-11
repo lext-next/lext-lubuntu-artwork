@@ -1,7 +1,11 @@
-WORK IN PROGRESS. As soon as I finished with learning the internals of PKGBUILD and friends, I will put this on AUR, and AUR users can just execute: $ yay -S lext-lubuntu-artwork to install the Lubuntu-Arc theme on their Arch based LXQt desktop.
+WORK IN PROGRESS. As soon as I finished with learning the internals of PKGBUILD and friends, I will put this on AUR, and AUR users can just execute: 
+
+$ yay -S lext-artwork-lubuntu 
+
+to install the Lubuntu-Arc theme on their Arch based LXQt desktop.
 
 
-# lext-lubuntu-artwork
+# lext-artwork-lubuntu
 AUR package for the Lubuntu-Arc theme (for LXQt).
 
 This repository is intended for use with AUR (for Arch Linux and derived systems). There is already a package 'lubuntu-artwork' in AUR. That one is supposed to install the Lubuntu-Arc theme as well. Mentioned package has a problem (due to that it is not being maintained) and can't be used anymore to install the theme (witdout tweaking the PKGBUILD file).
@@ -16,7 +20,7 @@ This implies that aforementioned AUR package must be updated regularily (at leas
 
 A long story, but it explains why the AUR 'lubuntu-artwork' package no longer works. 
 
-This is where this repository ('lext-lubuntu-artwork') may help. It allows to load the lastest version of the Lubuntu-Arc theming onto your system, with AUR. At least as long as someone 'here' changes the release and version numbering according to the situation on the upstream archive. 
+This is where this repository ('lext-artwork-lubuntu') may help. It allows you to easily load a version of the Lubuntu-Arc theming onto your system, with AUR. If someone 'here' changes the release and version numbering according to the situation on the upstream archive it may also be the latest version. 
 
 For most use cases this will suffice. If you explictly need an earlier version (as available on te source URL), and want to use this you need to tweak the PKGBUILD file, as described on the original 'lubuntu-artwork' page on AUR. 
 
