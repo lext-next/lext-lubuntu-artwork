@@ -1,7 +1,13 @@
 WORK IN PROGRESS. 
 
 Since I am on Arch Linux, this software **will eventually be made** available on AUR: 
-> $ yay -S lext-artwork-lubuntu 
+> $ yay -S lext-artwork-lubuntu
+Until then, for Arch Linux, just clone this repository, and then do:
+> $ cd lext-artwork-lubuntu
+> $ makepkg -si
+Optional followed by
+> $ cd ..
+> $ rm -Rf lext-artwork-lubuntu 
 
 # lext-artwork-lubuntu
 AUR package for the Lubuntu-Arc theme (for LXQt).
