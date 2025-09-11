@@ -1,6 +1,6 @@
 WORK IN PROGRESS. As soon as I finished with learning the internals of PKGBUILD and friends, I will put this on AUR, and AUR users can just execute: 
 
-$ yay -S lext-artwork-lubuntu 
+> $ yay -S lext-artwork-lubuntu 
 
 to install the Lubuntu-Arc theme on their Arch based LXQt desktop.
 
