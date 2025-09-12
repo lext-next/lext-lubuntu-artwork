@@ -1,5 +1,8 @@
-WORK IN PROGRESS. 
+### WORK IN PROGRESS
+# lext-artwork-lubuntu
+AUR package for the Lubuntu-Arc theme (for LXQt).
 
+## Arch Linux AUR
 Since I am on Arch Linux, this software **will eventually be made** available on AUR: 
 ```bash
 $ yay -S lext-artwork-lubuntu
@@ -15,9 +18,7 @@ $ cd ..
 $ rm -Rf lext-artwork-lubuntu 
 ```
 
-# lext-artwork-lubuntu
-AUR package for the Lubuntu-Arc theme (for LXQt).
-
+## What is this?
 This repository is intended for use with AUR (for Arch Linux and derived systems). There is already a package 'lubuntu-artwork' in AUR. That one is supposed to install the Lubuntu-Arc theme as well. Mentioned package has a problem (due to that it is not being maintained) and can't be used anymore to install the theme (witdout tweaking the PKGBUILD file).
 
 The upstream Lubuntu-Arc theme is available at: http://archive.ubuntu.com/ubuntu/pool/universe/l/lubuntu-artwork. This website contains many incarnations of the LXQt theme, each for a specific release of LXQt. 
@@ -35,3 +36,11 @@ This is where this repository ('lext-artwork-lubuntu') may help. It allows you t
 For most use cases this will suffice. If you explictly need an earlier version (as available on te source URL), and want to use this you need to tweak the PKGBUILD file, as described on the original 'lubuntu-artwork' page on AUR. 
 
 Or ask for a specific version of this AUR package. 
+
+## Changes with the upstream package
+The upstream package is used by the Lubuntu distribution, which has more `artwork` artefacts than required by LXQt. This package targets only LXQt, and the following parts are excluded:
+* grub
+* Kvantum
+* plymouth
+* sddm
+* newt 
