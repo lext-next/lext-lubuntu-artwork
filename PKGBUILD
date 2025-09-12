@@ -20,10 +20,20 @@ sha256sums=('SKIP')  # for testing; replace with real checksum later
                                 
 prepare() {
 
-	unwanted_aspects=(grub lubuntu/wallpapers Kvantum plymouth sddm)
+	# remove Debian install parts
 
+	unwanted_stuff=(debian  Makefile  README.md)
+	for stuff in "${unwanted_stuff[@]}"; do
+		rm -R "$srcdir/artwork/$stuff"
+	done
+
+	# remove grub related stuff
+
+	rm -R "$srcdir/artwork/src/etc"
+
+	unwanted_aspects=(grub lubuntu Kvantum plymouth sddm)
+	# lubuntu contains openbox-3 stuff and wallpapers
 	for aspect in "${unwanted_aspects[@]}"; do
-    		echo "*** Removing aspect: $aspect"
 		rm -R "$srcdir/artwork/src/usr/share/$aspect"
 	done
 
