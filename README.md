@@ -39,6 +39,7 @@ Or ask for a specific version of this AUR package.
 
 ## Changes with the upstream package
 The upstream package is used by the Lubuntu distribution, which has more `artwork` artefacts than required by LXQt. This package targets only LXQt, and the following parts are excluded:
+* wallpapers
 * grub
 * Kvantum
 * plymouth
