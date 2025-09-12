@@ -1,6 +1,6 @@
 ### WORK IN PROGRESS
 # lext-artwork-lubuntu
-AUR package for the **Lubuntu Arc** LXQt desktop theme (as used by Lubuntu).
+Deploy the **Lubuntu Arc** LXQt desktop theme (as used by Lubuntu) on Arch Linux.
 
 ## Target: Arch Linux
 ### AUR
