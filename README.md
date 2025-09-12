@@ -40,7 +40,7 @@ For most use cases this will suffice. If you explictly need an earlier version (
 Or ask for a specific version of this AUR package. 
 
 ### Changes with the upstream package
-The upstream package is used by the Lubuntu distribution, which has more artwork artefacts than required by LXQt. This package requires only the *Lubuntu Arc* theme, and the following parts are excluded:
+The upstream package is used by the Lubuntu distribution, which has more artwork artefacts than required by LXQt for the *Lubuntu Arc* theme. The following parts are excluded:
 * wallpapers
 * grub
 * Kvantum
