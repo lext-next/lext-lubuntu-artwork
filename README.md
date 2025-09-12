@@ -2,13 +2,16 @@
 # lext-artwork-lubuntu
 AUR package for the **Lubuntu Arc** LXQt desktop theme (as used by Lubuntu).
 
-## Target Arch Linux AUR
-Since I am on Arch Linux, this software **will eventually be made** available on AUR: 
+## Target: Arch Linux
+### AUR
+This software **will eventually be made** available on AUR: 
 ```bash
 $ yay -S lext-artwork-lubuntu
 ```
-Until then, or if you don't have an AUR client like *yay* installed, just clone this repository, and then do:
+### Arch Linux without AUR helper
+Until then, or if you don't have an AUR helper like *yay* installed:
 ```bash
+$ git clone https://github.com/lext-next/lext-artwork-lubuntu
 $ cd lext-artwork-lubuntu
 $ makepkg -si
 ```
