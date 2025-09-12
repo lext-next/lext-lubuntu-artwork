@@ -17,16 +17,27 @@ conflicts=('lubuntu-artwork' 'lubuntu-artwork-18-04')
 source=("https://github.com/lext-next/lext-artwork-lubuntu/blob/main/lubuntu-artwork_25.10.2.tar.xz")
                                                                                    
 sha256sums=('SKIP')  # for testing; replace with real checksum later                 
-                                                                                       
+                                
+prepare() {
+
+	unwanted_aspects=(grub lubuntu/wallpapers Kvantum plymouth sddm)
+
+	for aspect in "${unwanted_aspects[@]}"; do
+    		echo "*** Removing aspect: $aspect"
+		rm -R "$srcdir/artwork/src/usr/share/$aspect"
+	done
+
+	ls -lRt $srcdir
+}
+
 package() {
-#   msg "Current srcdir is: $srcdir"
-#   msg "Current pkgdir is: $pkgdir"
-#   set -x
-#   trap 'set +x' RETURN   # automatically disable tracing on function exit
+
+	msg "*** now install -d... ***"
 
     install -d "$pkgdir/usr/share/lxqt/themes"
 
-#   cp -rv "$srcdir"/artwork/src/usr "$pkgdir"
+	msg "*** now cp -r... ***"
+
     cp -r "$srcdir"/artwork/src/usr "$pkgdir"
 
     msg "*** READY ***"
